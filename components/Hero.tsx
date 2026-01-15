@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex flex-col justify-center px-20 pt-[120px] pb-10 relative max-lg:flex-col max-lg:px-10 max-lg:py-20">
-      <div className="flex items-start gap-20 mb-[60px] w-full max-lg:flex-col max-lg:gap-10">
+      <div className="flex items-center gap-20 mb-[60px] w-full max-lg:flex-col max-lg:gap-10">
         {/* Hero Content */}
         <div className="flex-1 max-w-[600px] z-[2] max-lg:text-center max-lg:mb-[50px] max-lg:pr-0 max-lg:max-w-full">
           <h1 className="text-[81px] font-bold leading-[1.1] mb-0 text-black tracking-[-2px] max-lg:text-[48px] max-md:text-[36px]">
@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
 
         {/* Hero Visual */}
-        <div className="flex-1 flex flex-col justify-center items-center relative mt-20">
+        <div className="flex-1 flex flex-col justify-center items-center relative">
           <div
             className={`effect-container ${introComplete ? 'intro-complete' : ''}`}
           >
