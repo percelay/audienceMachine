@@ -23,8 +23,8 @@ export const projects: Project[] = [
     client: "Oakley",
     category: "Viral Stunt",
     color: "#4A5568",
-    thumbnail: "https://img.youtube.com/vi/z5u_2bGPdUY/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/embed/z5u_2bGPdUY?autoplay=1",
+    thumbnail: "https://img.youtube.com/vi/tpEkN1NdjKU/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/embed/tpEkN1NdjKU?autoplay=1",
     videoType: "youtube",
     stats: [
       { label: "Total Views", value: "18 Million+ Global" },
@@ -55,8 +55,8 @@ export const projects: Project[] = [
     client: "YouTube",
     category: "Hidden Camera",
     color: "#2D3748",
-    thumbnail: "https://img.youtube.com/vi/U7zb7qnZBvs/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/embed/U7zb7qnZBvs?autoplay=1",
+    thumbnail: "https://img.youtube.com/vi/cgIbzjjbdw8/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/embed/cgIbzjjbdw8?autoplay=1",
     videoType: "youtube",
     stats: [
       { label: "Total Views", value: "68 Million+ Global" },
@@ -79,6 +79,22 @@ export const projects: Project[] = [
       { label: "Media Coverage", value: "Today Show, Fox News, CNN, CNBC, Jay Leno's Garage, Yahoo, Popular Science, WSJ, Time, Newsweek, Wired, NHK Japan…" }
     ],
     description: "Custom hydraulic-powered Jeep Grand Cherokee promotes Hum connected car device that \"elevates\" car functionality. The vehicle rises and widens its wheelbase to drive over cars in bumper-to-bumper traffic. Downward facing cameras enabled driver safety. Currently, a hydraulics exhibit at the Liberty Science Center in Jersey City, NJ.",
+    press: []
+  },
+  {
+    id: 6,
+    title: "Bubba's Hover",
+    client: "Oakley",
+    category: "Viral Stunt",
+    color: "#4A5568",
+    thumbnail: "https://img.youtube.com/vi/z5u_2bGPdUY/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/embed/z5u_2bGPdUY?autoplay=1",
+    videoType: "youtube",
+    stats: [
+      { label: "Total Views", value: "60 Million+" },
+      { label: "Media Coverage", value: "CNN, Today Show, Fox News, CNBC, WSJ, Golf Digest, SI, Yahoo, MSN…" }
+    ],
+    description: "To earn Oakley Golf attention, we created a real golf cart hovercraft. The idea was to present a way to speed up the game with new tech.",
     press: []
   }
 ];
