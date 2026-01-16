@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full px-20 py-[15px] flex justify-between items-center z-[1000] bg-white/95 backdrop-blur-[10px] border-b border-black/5 max-lg:px-10 max-lg:py-5">
       <div className="logo">
         <Image
-          src="https://i.imgur.com/cxa5Wxt.png"
+          src="https://i.imgur.com/a53hTtt.png"
           alt="Percelay"
           width={75}
           height={75}
