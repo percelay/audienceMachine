@@ -38,6 +38,36 @@ export default function AboutSection() {
             referrerPolicy="no-referrer"
           />
         </div>
+
+        <div className="flex gap-4 mt-8 max-md:flex-col">
+          <Image
+            src="https://i.imgur.com/iMHjgqu.png"
+            alt="Project image 1"
+            width={200}
+            height={150}
+            className="h-[150px] w-auto object-cover"
+            unoptimized
+            referrerPolicy="no-referrer"
+          />
+          <Image
+            src="https://i.imgur.com/CN4gSf9.png"
+            alt="Project image 2"
+            width={200}
+            height={150}
+            className="h-[150px] w-auto object-cover"
+            unoptimized
+            referrerPolicy="no-referrer"
+          />
+          <Image
+            src="https://i.imgur.com/McdvOEP.png"
+            alt="Project image 3"
+            width={200}
+            height={150}
+            className="h-[150px] w-auto object-cover"
+            unoptimized
+            referrerPolicy="no-referrer"
+          />
+        </div>
       </div>
     </section>
   );
