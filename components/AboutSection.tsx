@@ -27,43 +27,40 @@ export default function AboutSection() {
           coverage, and activation.
         </p>
 
-        <div className="text-center mt-8">
+        <div className="flex items-center gap-4 mt-8 max-md:flex-col">
           <Image
             src="https://i.imgur.com/RQgktzf.png"
             alt="Featured in Variety, Backstage, CNBC, Today, Entrepreneur, Fast Company, Forbes, Adweek, Bloomberg Businessweek, Fox Business, The New York Times, WSJ, NPR, ET, Yahoo, Inc, The Hollywood Reporter, Mashable"
             width={350}
             height={100}
-            className="w-[350px] max-w-full h-auto"
+            className="h-[100px] w-auto"
             unoptimized
             referrerPolicy="no-referrer"
           />
-        </div>
-
-        <div className="flex gap-4 mt-8 max-md:flex-col">
           <Image
             src="https://i.imgur.com/iMHjgqu.png"
             alt="Project image 1"
-            width={200}
-            height={150}
-            className="h-[150px] w-auto object-cover"
+            width={80}
+            height={100}
+            className="h-[100px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
           <Image
             src="https://i.imgur.com/CN4gSf9.png"
             alt="Project image 2"
-            width={200}
-            height={150}
-            className="h-[150px] w-auto object-cover"
+            width={150}
+            height={100}
+            className="h-[100px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
           <Image
             src="https://i.imgur.com/McdvOEP.png"
             alt="Project image 3"
-            width={200}
-            height={150}
-            className="h-[150px] w-auto object-cover"
+            width={150}
+            height={100}
+            className="h-[100px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
