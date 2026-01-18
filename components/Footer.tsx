@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer-left">
           <h3 className="text-[28px] text-brand mb-5 font-bold">Ready to Create?</h3>
           <p className="text-base text-[#999999] max-w-[400px] font-light">
-            Let&apos;s engineer content that earns attention and drives real results for your
+            Let&apos;s engineer content that earns attention and drives <em>real</em> results for your
             brand.
           </p>
         </div>

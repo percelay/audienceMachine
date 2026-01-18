@@ -54,11 +54,11 @@ export default function Hero() {
       </div>
 
       {/* Hero Bottom */}
-      <div className="w-full text-center max-w-[1200px] mx-auto">
+      <div className="w-full text-left max-w-[1200px]">
         <div className="text-lg font-bold text-brand uppercase tracking-[3px] mb-[25px]">
           Under The Hood
         </div>
-        <p className="text-xl leading-[1.7] text-[#333333] font-light max-w-[900px] mx-auto max-md:text-lg">
+        <p className="text-xl leading-[1.7] text-[#333333] font-light max-w-[900px] max-md:text-lg">
           People prefer what they discover over what they&apos;re sold. We bridge that gap by
           engineering content that sparks interest and engagement, without feeling branded.
           Through immersive scenarios, inventive storytelling, and custom-built machines, we

@@ -23,12 +23,12 @@ export default function PortfolioGrid() {
   return (
     <section id="work" className="px-20 py-20 bg-white max-lg:px-10 max-md:px-5 max-md:py-[60px]">
       <div className="max-w-[1400px] mx-auto">
-        <div className="mb-[60px] pl-[30px] border-l-4 border-brand">
+        <div className="mb-[60px]">
           <h2 className="text-lg font-bold text-brand uppercase tracking-[3px] mb-[10px]">
-            our work
+            what we do
           </h2>
           <p className="text-lg text-[#666666] font-light">
-            Click to view a few case studies and press impact.
+            Click for some case studies
           </p>
         </div>
 
