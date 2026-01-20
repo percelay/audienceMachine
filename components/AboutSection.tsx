@@ -18,7 +18,7 @@ export default function AboutSection() {
         <div className="text-lg font-bold text-brand uppercase tracking-[3px] mb-[30px]">
           CHIEF ENGINEER
         </div>
-        <p className="text-xl leading-[1.8] text-[#333333] mb-5 font-light">
+        <p className="text-lg leading-[1.8] text-[#333333] mb-5 font-light">
           James Percelay loves building things. He&apos;s also a best-selling author, WGA/ PGA
           Member, co-founder of Thinkmodo, head of Jelly Media, and former SNL commercial
           parody producer. James created some of the most iconic viral videos of the last

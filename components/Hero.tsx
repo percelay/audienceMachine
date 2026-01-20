@@ -15,7 +15,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex flex-col justify-center px-20 pt-[120px] pb-10 relative max-lg:flex-col max-lg:px-10 max-lg:py-20">
+    <section className="min-h-screen flex flex-col justify-center px-20 pt-[140px] pb-10 relative max-lg:flex-col max-lg:px-10 max-lg:pt-[120px] max-lg:pb-20">
       <div className="flex items-center gap-20 mb-[60px] w-full max-lg:flex-col max-lg:gap-10">
         {/* Hero Content */}
         <div className="flex-1 max-w-[600px] z-[2] max-lg:text-center max-lg:mb-[50px] max-lg:pr-0 max-lg:max-w-full">

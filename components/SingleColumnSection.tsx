@@ -12,7 +12,7 @@ export default function SingleColumnSection() {
         isVisible ? 'visible' : ''
       }`}
     >
-      <div className="max-w-[900px] text-left mx-auto mr-[15%]">
+      <div className="text-left max-md:px-2">
         <h3 className="text-[56px] font-bold text-black mb-[15px] tracking-[-1px] max-lg:text-[42px] max-md:text-[32px]">
           AI vs. <span className="text-brand">The Human Eye</span>
         </h3>
