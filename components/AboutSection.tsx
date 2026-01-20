@@ -31,36 +31,36 @@ export default function AboutSection() {
           <Image
             src="https://i.imgur.com/RQgktzf.png"
             alt="Featured in Variety, Backstage, CNBC, Today, Entrepreneur, Fast Company, Forbes, Adweek, Bloomberg Businessweek, Fox Business, The New York Times, WSJ, NPR, ET, Yahoo, Inc, The Hollywood Reporter, Mashable"
-            width={400}
-            height={120}
-            className="h-[120px] w-auto"
+            width={500}
+            height={150}
+            className="h-[150px] w-auto"
             unoptimized
             referrerPolicy="no-referrer"
           />
           <Image
             src="https://i.imgur.com/iMHjgqu.png"
             alt="Project image 1"
-            width={60}
-            height={70}
-            className="h-[70px] w-auto object-cover"
+            width={40}
+            height={50}
+            className="h-[50px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
           <Image
             src="https://i.imgur.com/CN4gSf9.png"
             alt="Project image 2"
-            width={100}
-            height={70}
-            className="h-[70px] w-auto object-cover"
+            width={130}
+            height={90}
+            className="h-[90px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
           <Image
             src="https://i.imgur.com/McdvOEP.png"
             alt="Project image 3"
-            width={100}
-            height={70}
-            className="h-[70px] w-auto object-cover"
+            width={130}
+            height={90}
+            className="h-[90px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
