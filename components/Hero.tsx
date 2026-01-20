@@ -39,7 +39,7 @@ export default function Hero() {
               referrerPolicy="no-referrer"
             />
             <Image
-              src="https://imgur.com/kZASnPh.jpeg"
+              src="https://i.imgur.com/7VebNQp.png"
               alt="Viral Stunt Action"
               fill
               className="img-1 object-cover"
@@ -54,7 +54,7 @@ export default function Hero() {
       </div>
 
       {/* Hero Bottom */}
-      <div className="w-full text-left max-w-[1200px]">
+      <div className="w-full text-left max-w-[1200px] mx-auto mr-[15%]">
         <div className="text-lg font-bold text-brand uppercase tracking-[3px] mb-[25px]">
           Under The Hood
         </div>
