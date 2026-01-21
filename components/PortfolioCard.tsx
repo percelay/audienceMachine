@@ -41,9 +41,6 @@ export default function PortfolioCard({ project, onClick }: PortfolioCardProps) 
           <h3 className="text-[22px] font-bold text-black leading-[1.3] transition-colors duration-300 group-hover:text-brand">
             {project.title}
           </h3>
-          <span className="text-[11px] font-bold uppercase tracking-[1px] bg-[#f5f5f5] text-[#666666] px-3 py-[6px] rounded whitespace-nowrap">
-            {project.category}
-          </span>
         </div>
         <p className="text-[15px] text-[#666666] font-light">{project.client}</p>
       </div>

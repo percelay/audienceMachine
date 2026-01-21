@@ -12,12 +12,12 @@ export default function SingleColumnSection() {
         isVisible ? 'visible' : ''
       }`}
     >
-      <div className="text-left max-md:px-2">
-        <h3 className="text-[56px] font-bold text-black mb-[15px] tracking-[-1px] max-lg:text-[42px] max-md:text-[32px]">
+      <div className="text-center max-md:px-2">
+        <h3 className="text-[42px] font-bold text-black mb-[15px] tracking-[-1px] max-lg:text-[36px] max-md:text-[28px]">
           AI vs. <span className="text-brand">The Human Eye</span>
         </h3>
         <p className="text-xl leading-[1.7] text-[#333333] font-light max-lg:text-lg max-md:text-base">
-          We&apos;re doubling down on actual reality, from human ideation to physical production.
+          We&apos;re doubling down on actual reality from human ideation to physical production.
         </p>
         <p className="text-xl leading-[1.7] text-[#333333] font-light max-lg:text-lg max-md:text-base">
           Keeping it real will become increasingly valuable as AI generated content proliferates.
