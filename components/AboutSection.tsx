@@ -27,40 +27,51 @@ export default function AboutSection() {
           coverage, and activation.
         </p>
 
-        <div className="flex items-center gap-4 mt-8 max-md:flex-col">
+        <div className="flex items-center justify-center gap-8 mt-8 max-md:flex-col">
           <Image
             src="https://i.imgur.com/RQgktzf.png"
             alt="Featured in Variety, Backstage, CNBC, Today, Entrepreneur, Fast Company, Forbes, Adweek, Bloomberg Businessweek, Fox Business, The New York Times, WSJ, NPR, ET, Yahoo, Inc, The Hollywood Reporter, Mashable"
             width={500}
-            height={150}
-            className="h-[150px] w-auto"
+            height={180}
+            className="h-[180px] w-auto"
             unoptimized
             referrerPolicy="no-referrer"
           />
+          <div className="flex flex-col gap-0 h-[180px]">
+            <Image
+              src="https://i.imgur.com/iMHjgqu.png"
+              alt="Project image 1"
+              width={100}
+              height={60}
+              className="h-[60px] w-auto object-cover"
+              unoptimized
+              referrerPolicy="no-referrer"
+            />
+            <Image
+              src="https://i.imgur.com/CN4gSf9.png"
+              alt="Project image 2"
+              width={100}
+              height={60}
+              className="h-[60px] w-auto object-cover"
+              unoptimized
+              referrerPolicy="no-referrer"
+            />
+            <Image
+              src="https://i.imgur.com/McdvOEP.png"
+              alt="Project image 3"
+              width={100}
+              height={60}
+              className="h-[60px] w-auto object-cover"
+              unoptimized
+              referrerPolicy="no-referrer"
+            />
+          </div>
           <Image
-            src="https://i.imgur.com/iMHjgqu.png"
-            alt="Project image 1"
-            width={40}
-            height={50}
-            className="h-[50px] w-auto object-cover"
-            unoptimized
-            referrerPolicy="no-referrer"
-          />
-          <Image
-            src="https://i.imgur.com/CN4gSf9.png"
-            alt="Project image 2"
-            width={130}
-            height={90}
-            className="h-[90px] w-auto object-cover"
-            unoptimized
-            referrerPolicy="no-referrer"
-          />
-          <Image
-            src="https://i.imgur.com/McdvOEP.png"
-            alt="Project image 3"
-            width={130}
-            height={90}
-            className="h-[90px] w-auto object-cover"
+            src="https://i.imgur.com/rMkgjaJ.png"
+            alt="Project image 4"
+            width={180}
+            height={180}
+            className="h-[180px] w-auto object-cover"
             unoptimized
             referrerPolicy="no-referrer"
           />
