@@ -23,13 +23,13 @@ export default function AboutSection() {
           Member, co-founder of Thinkmodo, head of Jelly Media, and former SNL commercial
           parody producer. James created some of the most iconic viral videos of the last
           decade - often featuring machines he invented. His award-winning work redefined
-          branded conteht, and has delivered global audience engagement, valuable media
+          branded content, and has delivered global audience engagement, valuable media
           coverage, and activation.
         </p>
 
         <div className="flex items-center justify-center gap-8 mt-8 max-md:flex-col">
           <Image
-            src="https://i.imgur.com/RQgktzf.png"
+            src="https://i.imgur.com/J2WgZBd.png"
             alt="Featured in Variety, Backstage, CNBC, Today, Entrepreneur, Fast Company, Forbes, Adweek, Bloomberg Businessweek, Fox Business, The New York Times, WSJ, NPR, ET, Yahoo, Inc, The Hollywood Reporter, Mashable"
             width={500}
             height={180}
