@@ -22,7 +22,7 @@ export default function Navbar() {
           alt="Percelay"
           width={75}
           height={75}
-          className="h-[75px] w-auto"
+          className="h-[100px] w-auto"
           unoptimized
           referrerPolicy="no-referrer"
         />

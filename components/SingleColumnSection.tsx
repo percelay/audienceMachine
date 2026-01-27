@@ -17,7 +17,7 @@ export default function SingleColumnSection() {
           AI vs. <span className="text-brand">The Human Eye</span>
         </h3>
         <p className="text-xl leading-[1.7] text-[#333333] font-light max-lg:text-lg max-md:text-base">
-          We&apos;re doubling down on actual reality from human ideation to physical production.
+          We&apos;re doubling down on actual reality — from human ideation to physical production.
         </p>
         <p className="text-xl leading-[1.7] text-[#333333] font-light max-lg:text-lg max-md:text-base">
           Keeping it real will become increasingly valuable as AI generated content proliferates.
