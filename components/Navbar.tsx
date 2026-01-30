@@ -15,19 +15,22 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full px-20 py-[15px] flex justify-between items-center z-[1000] bg-white/95 backdrop-blur-[10px] border-b border-black/5 max-lg:px-10 max-lg:py-5">
-      <div className="logo">
+    <>
+      {/* Fixed logo in top left corner */}
+      <div className="fixed top-5 left-20 z-[1001] max-lg:left-10">
         <Image
           src="https://i.imgur.com/3YvnLTv.png"
           alt="Percelay"
-          width={150}
-          height={150}
+          width={200}
+          height={200}
           className="h-[200px] w-auto"
           unoptimized
           referrerPolicy="no-referrer"
         />
       </div>
-      <div className="flex gap-10 max-md:gap-5">
+
+      <nav className="fixed top-0 w-full px-20 py-2 flex justify-end items-center z-[1000] bg-white/95 backdrop-blur-[10px] border-b border-black/5 max-lg:px-10 max-lg:py-2">
+        <div className="flex gap-10 max-md:gap-5">
         <a
           href="#work"
           onClick={(e) => handleSmoothScroll(e, '#work')}
@@ -51,5 +54,6 @@ export default function Navbar() {
         </a>
       </div>
     </nav>
+    </>
   );
 }
