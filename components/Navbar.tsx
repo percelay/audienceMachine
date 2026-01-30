@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <>
       {/* Fixed logo in top left corner */}
-      <div className="fixed top-5 left-20 z-[1001] max-lg:left-10">
+      <div className="fixed top-12 left-20 z-[1001] max-lg:left-10">
         <Image
           src="https://i.imgur.com/3YvnLTv.png"
           alt="Percelay"
