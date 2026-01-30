@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Navbar() {
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -13,7 +15,18 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full px-20 py-2 flex justify-end items-center z-[1000] bg-white/95 backdrop-blur-[10px] border-b border-black/5 max-lg:px-10 max-lg:py-2">
+    <nav className="fixed top-0 w-full px-20 py-4 flex justify-between items-center z-[1000] bg-white/95 backdrop-blur-[10px] border-b border-black/5 max-lg:px-10 max-lg:py-3">
+      <div className="logo">
+        <Image
+          src="https://i.imgur.com/ywSziBj.png"
+          alt="Audience Machine"
+          width={100}
+          height={100}
+          className="h-[100px] w-auto"
+          unoptimized
+          referrerPolicy="no-referrer"
+        />
+      </div>
       <div className="flex gap-10 max-md:gap-5">
         <a
           href="#work"

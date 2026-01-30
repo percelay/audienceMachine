@@ -48,7 +48,7 @@ export default function Footer() {
         </a>
 
         <Image
-          src="https://i.imgur.com/3YvnLTv.png"
+          src="https://i.imgur.com/ywSziBj.png"
           alt="Audience Machine"
           width={200}
           height={200}
