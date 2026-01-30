@@ -1,13 +1,23 @@
+'use client';
+
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 
 export default function FixedLogo() {
-  return (
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const logo = (
     <div
       style={{
         position: 'fixed',
         top: '48px',
         left: '80px',
-        zIndex: 1001,
+        zIndex: 9999,
       }}
     >
       <Image
@@ -15,10 +25,14 @@ export default function FixedLogo() {
         alt="Percelay"
         width={200}
         height={200}
-        className="h-[200px] w-auto max-lg:left-10"
+        className="h-[200px] w-auto"
         unoptimized
         referrerPolicy="no-referrer"
       />
     </div>
   );
+
+  if (!mounted) return null;
+
+  return createPortal(logo, document.body);
 }
