@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import FixedLogo from '@/components/FixedLogo';
 
 export const metadata: Metadata = {
   title: 'James Percelay | Earned Media Innovator',
@@ -14,10 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <FixedLogo />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
