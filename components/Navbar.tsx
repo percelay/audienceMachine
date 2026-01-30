@@ -18,11 +18,11 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full px-20 py-[15px] flex justify-between items-center z-[1000] bg-white/95 backdrop-blur-[10px] border-b border-black/5 max-lg:px-10 max-lg:py-5">
       <div className="logo">
         <Image
-          src="https://i.imgur.com/mtBu5Pf.png"
+          src="https://i.imgur.com/3YvnLTv.png"
           alt="Percelay"
-          width={75}
-          height={75}
-          className="h-[100px] w-auto"
+          width={150}
+          height={150}
+          className="h-[200px] w-auto"
           unoptimized
           referrerPolicy="no-referrer"
         />

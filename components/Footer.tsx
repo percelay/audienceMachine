@@ -48,11 +48,11 @@ export default function Footer() {
         </a>
 
         <Image
-          src="https://i.imgur.com/mtBu5Pf.png"
+          src="https://i.imgur.com/3YvnLTv.png"
           alt="Audience Machine"
-          width={100}
-          height={100}
-          className="h-[100px] w-auto"
+          width={200}
+          height={200}
+          className="h-[200px] w-auto"
           unoptimized
           referrerPolicy="no-referrer"
         />
