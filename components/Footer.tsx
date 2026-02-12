@@ -8,7 +8,10 @@ export default function Footer() {
           Let&apos;s build your audience.
         </h3>
 
-        <div className="flex items-center gap-2 text-lg text-[#333333] mb-4">
+        <a
+          href="mailto:info@audiencemachine.co"
+          className="flex items-center gap-2 text-lg text-[#333333] mb-4 transition-opacity duration-300 hover:opacity-70"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -24,7 +27,7 @@ export default function Footer() {
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
           </svg>
           info@audiencemachine.co
-        </div>
+        </a>
 
         <a
           href="https://www.linkedin.com/in/jamespercelay/"
